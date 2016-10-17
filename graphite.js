@@ -14,9 +14,9 @@ while (domWalker.nextNode()) {
         var thisNodeBackgroundColor = window.getComputedStyle(node)['background-color'];
 
         if (thisNodeBackground == 'rgb(255, 255, 255)' || thisNodeBackgroundColor == 'rgb(255, 255, 255)') {
-            domWalker.currentNode.style.backgroundColor = '#FAFAFA';
+            domWalker.currentNode.style.backgroundColor = '#F0F0F0';
         }
-        if (thisNodeBackground == 'rgb(250, 250, 250)' || thisNodeBackgroundColor == 'rgb(250, 250, 250)') {
+        if (thisNodeBackground == 'rgb(250, 250, 250)' || thisNodeBackgroundColor == 'rgb(240, 240, 240)') {
             domWalker.currentNode.style.backgroundColor = '#FFFFFF';
         }
 
@@ -33,9 +33,9 @@ while (domWalker.nextNode()) {
         var thisNodeColor = window.getComputedStyle(node)['color'];
 
         if (thisNodeColor == 'rgb(255, 255, 255)') {
-            domWalker.currentNode.style.color = '#FAFAFA';
+            domWalker.currentNode.style.color = '#F0F0F0';
         }
-        if (thisNodeColor == 'rgb(250, 250, 250)') {
+        if (thisNodeColor == 'rgb(240, 240, 240)') {
             domWalker.currentNode.style.color = '#FFFFFF';
         }
         if (thisNodeColor == 'rgb(0, 0, 0)') {

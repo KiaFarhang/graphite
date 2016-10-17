@@ -1,6 +1,6 @@
 {
     "name": "Graphite",
-    "description": "Improves web readability by softening harsh whites and blacks and increasing line height",
+    "description": "Softens harsh whites and blacks to improve web readability",
     "icons": {"128": "icon_128.png"},
     "version": "0.1",
     "author": "Kia Farhang",
