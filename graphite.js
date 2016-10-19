@@ -16,7 +16,7 @@ while (domWalker.nextNode()) {
         if (thisNodeBackground == 'rgb(255, 255, 255)' || thisNodeBackgroundColor == 'rgb(255, 255, 255)') {
             domWalker.currentNode.style.backgroundColor = '#F0F0F0';
         }
-        if (thisNodeBackground == 'rgb(250, 250, 250)' || thisNodeBackgroundColor == 'rgb(240, 240, 240)') {
+        if (thisNodeBackground == 'rgb(240, 240, 240)' || thisNodeBackgroundColor == 'rgb(240, 240, 240)') {
             domWalker.currentNode.style.backgroundColor = '#FFFFFF';
         }
 
