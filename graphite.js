@@ -50,8 +50,8 @@ while (domWalker.nextNode()) {
     function checkLineHeight(node) {
         var thisNodeLineHeight = window.getComputedStyle(node)['line-height'];
 
-        if(thisNodeLineHeight == 'normal'){
-        	domWalker.currentNode.style.lineHeight = '1.3';
+        if (thisNodeLineHeight == 'normal') {
+            domWalker.currentNode.style.lineHeight = '1.3';
         }
     }
 }

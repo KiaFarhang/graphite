@@ -12,6 +12,12 @@
         "activeTab",
         "*://*/*"
     ],
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "exclude_matches": ["https://mail.google.com/", "https://docs.google.com/"],
+            "js": ["graphite.js"]
+        }],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
